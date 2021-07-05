@@ -8,7 +8,7 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:paddingHorizontal="16dp"
-        tools:context=".ui.fragment.AboutFragment">
+        tools:context="com.samyotech.laundrydriver.ui.fragment.AboutFragment">
 
         <ScrollView
             android:layout_width="match_parent"

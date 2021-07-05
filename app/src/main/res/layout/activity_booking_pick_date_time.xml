@@ -7,7 +7,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/white"
-        tools:context=".ui.activity.BookingPickDateTimeActivity">
+        tools:context="com.samyotech.laundrydriver.ui.activity.BookingPickDateTimeActivity">
 
         <RelativeLayout
             android:id="@+id/cardRely"
