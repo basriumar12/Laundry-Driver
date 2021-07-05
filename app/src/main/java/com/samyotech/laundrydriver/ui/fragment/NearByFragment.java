@@ -51,7 +51,7 @@ import com.samyotech.laundrydriver.model.PopLaundryDTO;
 import com.samyotech.laundrydriver.model.UserDTO;
 import com.samyotech.laundrydriver.network.NetworkManager;
 import com.samyotech.laundrydriver.preferences.SharedPrefrence;
-import com.samyotech.laundrydriver.ui.activity.Dashboard;
+import com.samyotech.laundrydriver.ui.activity.dashboard.Dashboard;
 import com.samyotech.laundrydriver.ui.activity.SearchActivity;
 import com.samyotech.laundrydriver.ui.adapter.PopularLaundriesAdapter;
 import com.samyotech.laundrydriver.utils.AnchorSheetBehavior;

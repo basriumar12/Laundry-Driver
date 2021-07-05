@@ -1,4 +1,4 @@
-package com.samyotech.laundrydriver.ui.activity;
+package com.samyotech.laundrydriver.ui.activity.manage;
 
 import android.content.Context;
 import android.content.Intent;
@@ -10,14 +10,15 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.databinding.DataBindingUtil;
 
-import com.samyotech.laundry.R;
-import com.samyotech.laundry.databinding.ActivityChangPasswordBinding;
+import com.samyotech.laundrydriver.R;
+import com.samyotech.laundrydriver.databinding.ActivityChangPasswordBinding;
 import com.samyotech.laundrydriver.https.HttpsRequest;
 import com.samyotech.laundrydriver.interfaces.Consts;
 import com.samyotech.laundrydriver.interfaces.Helper;
 import com.samyotech.laundrydriver.model.UserDTO;
 import com.samyotech.laundrydriver.network.NetworkManager;
 import com.samyotech.laundrydriver.preferences.SharedPrefrence;
+import com.samyotech.laundrydriver.ui.activity.login.Login;
 import com.samyotech.laundrydriver.utils.ProjectUtils;
 
 import org.json.JSONObject;

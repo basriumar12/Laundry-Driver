@@ -19,8 +19,8 @@ import com.samyotech.laundry.databinding.AdapterTicketBinding;
 import com.samyotech.laundrydriver.interfaces.Consts;
 import com.samyotech.laundrydriver.model.TicketDTO;
 import com.samyotech.laundrydriver.model.UserDTO;
-import com.samyotech.laundrydriver.ui.activity.TicketChatActivity;
-import com.samyotech.laundrydriver.ui.activity.TicketsActivity;
+import com.samyotech.laundrydriver.ui.activity.tiket.TicketChatActivity;
+import com.samyotech.laundrydriver.ui.activity.tiket.TicketsActivity;
 
 import java.util.ArrayList;
 

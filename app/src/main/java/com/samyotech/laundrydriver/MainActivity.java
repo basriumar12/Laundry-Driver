@@ -17,9 +17,9 @@ import androidx.core.app.ActivityCompat;
 import com.samyotech.laundry.R;
 import com.samyotech.laundrydriver.interfaces.Consts;
 import com.samyotech.laundrydriver.preferences.SharedPrefrence;
-import com.samyotech.laundrydriver.ui.activity.Dashboard;
-import com.samyotech.laundrydriver.ui.activity.Login;
-import com.samyotech.laundrydriver.ui.activity.WelcomeScreens;
+import com.samyotech.laundrydriver.ui.activity.dashboard.Dashboard;
+import com.samyotech.laundrydriver.ui.activity.login.Login;
+import com.samyotech.laundrydriver.ui.activity.welcome.WelcomeScreens;
 
 import java.util.Locale;
 

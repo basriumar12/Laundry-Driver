@@ -1,4 +1,4 @@
-package com.samyotech.laundrydriver.ui.activity;
+package com.samyotech.laundrydriver.ui.activity.login;
 
 import android.content.Context;
 import android.content.DialogInterface;
@@ -35,14 +35,16 @@ import com.google.android.material.snackbar.Snackbar;
 import com.google.firebase.iid.FirebaseInstanceId;
 import com.google.firebase.messaging.FirebaseMessaging;
 import com.google.gson.Gson;
-import com.samyotech.laundry.R;
-import com.samyotech.laundry.databinding.ActivityLoginBinding;
+import com.samyotech.laundrydriver.R;
+import com.samyotech.laundrydriver.databinding.ActivityLoginBinding;
 import com.samyotech.laundrydriver.https.HttpsRequest;
 import com.samyotech.laundrydriver.interfaces.Consts;
 import com.samyotech.laundrydriver.interfaces.Helper;
 import com.samyotech.laundrydriver.model.UserDTO;
 import com.samyotech.laundrydriver.network.NetworkManager;
 import com.samyotech.laundrydriver.preferences.SharedPrefrence;
+import com.samyotech.laundrydriver.ui.activity.dashboard.Dashboard;
+import com.samyotech.laundrydriver.ui.activity.register.Register;
 import com.samyotech.laundrydriver.utils.ProjectUtils;
 
 import org.json.JSONObject;

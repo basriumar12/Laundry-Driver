@@ -1,4 +1,4 @@
-package com.samyotech.laundrydriver.ui.activity;
+package com.samyotech.laundrydriver.ui.activity.about;
 
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
@@ -8,8 +8,9 @@ import android.view.View;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.databinding.DataBindingUtil;
 
-import com.samyotech.laundry.R;
-import com.samyotech.laundry.databinding.ActivityAboutBinding;
+import com.samyotech.laundrydriver.R;
+import com.samyotech.laundrydriver.databinding.ActivityAboutBinding;
+
 
 public class About extends AppCompatActivity {
 

@@ -1,4 +1,4 @@
-package com.samyotech.laundrydriver.ui.activity;
+package com.samyotech.laundrydriver.ui.activity.welcome;
 
 import android.content.Context;
 import android.content.Intent;
@@ -7,11 +7,12 @@ import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.databinding.DataBindingUtil;
 
-import com.samyotech.laundry.R;
-import com.samyotech.laundry.databinding.ActivityWelcomeScreensBinding;
+import com.samyotech.laundrydriver.R;
+import com.samyotech.laundrydriver.databinding.ActivityWelcomeScreensBinding;
 import com.samyotech.laundrydriver.interfaces.Consts;
 import com.samyotech.laundrydriver.model.WelcomeDTO;
 import com.samyotech.laundrydriver.preferences.SharedPrefrence;
+import com.samyotech.laundrydriver.ui.activity.login.Login;
 import com.samyotech.laundrydriver.ui.adapter.WelcomeImageAdapter;
 
 import java.util.ArrayList;

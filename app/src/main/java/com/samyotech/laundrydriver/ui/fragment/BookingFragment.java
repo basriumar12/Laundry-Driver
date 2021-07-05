@@ -22,7 +22,7 @@ import com.samyotech.laundrydriver.model.BookingDTO;
 import com.samyotech.laundrydriver.model.CurrencyDTO;
 import com.samyotech.laundrydriver.model.UserDTO;
 import com.samyotech.laundrydriver.preferences.SharedPrefrence;
-import com.samyotech.laundrydriver.ui.activity.NotificationActivity;
+import com.samyotech.laundrydriver.ui.activity.notif.NotificationActivity;
 import com.samyotech.laundrydriver.ui.adapter.BookingAdapter;
 import com.samyotech.laundrydriver.utils.ProjectUtils;
 

@@ -1,4 +1,4 @@
-package com.samyotech.laundrydriver.ui.activity;
+package com.samyotech.laundrydriver.ui.activity.dashboard;
 
 import android.content.Context;
 import android.location.Location;
@@ -13,16 +13,16 @@ import androidx.navigation.ui.NavigationUI;
 
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
-import com.samyotech.laundry.R;
-import com.samyotech.laundry.databinding.ActivityDashboardBinding;
+import com.samyotech.laundrydriver.R;
+import com.samyotech.laundrydriver.databinding.ActivityDashboardBinding;
 import com.samyotech.laundrydriver.interfaces.Consts;
 import com.samyotech.laundrydriver.model.CurrencyDTO;
 import com.samyotech.laundrydriver.preferences.SharedPrefrence;
 import com.samyotech.laundrydriver.ui.fragment.BookingFragment;
-import com.samyotech.laundrydriver.ui.fragment.HomeFragment;
+import com.samyotech.laundrydriver.ui.fragment.home.HomeFragment;
 import com.samyotech.laundrydriver.ui.fragment.NearByFragment;
 import com.samyotech.laundrydriver.ui.fragment.OffersFragment;
-import com.samyotech.laundrydriver.ui.fragment.ProfileFragment;
+import com.samyotech.laundrydriver.ui.fragment.profile.ProfileFragment;
 import com.samyotech.laundrydriver.utils.ProjectUtils;
 
 public class Dashboard extends AppCompatActivity {

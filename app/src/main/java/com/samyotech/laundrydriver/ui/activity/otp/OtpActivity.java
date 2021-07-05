@@ -1,4 +1,4 @@
-package com.samyotech.laundrydriver.ui.activity;
+package com.samyotech.laundrydriver.ui.activity.otp;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;

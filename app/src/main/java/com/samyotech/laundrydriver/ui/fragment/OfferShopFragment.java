@@ -20,7 +20,6 @@ import com.samyotech.laundrydriver.interfaces.Consts;
 import com.samyotech.laundrydriver.interfaces.Helper;
 import com.samyotech.laundrydriver.model.OfferDTO;
 import com.samyotech.laundrydriver.model.PopLaundryDTO;
-import com.samyotech.laundrydriver.ui.activity.ShopAcitivity;
 import com.samyotech.laundrydriver.ui.adapter.OffersOtherAdapter;
 import com.samyotech.laundrydriver.utils.ProjectUtils;
 

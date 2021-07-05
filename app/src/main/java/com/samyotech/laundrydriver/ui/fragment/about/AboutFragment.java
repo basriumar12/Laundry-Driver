@@ -1,4 +1,4 @@
-package com.samyotech.laundrydriver.ui.fragment;
+package com.samyotech.laundrydriver.ui.fragment.about;
 
 import android.Manifest;
 import android.content.Context;
@@ -22,14 +22,12 @@ import com.google.android.gms.maps.model.CameraPosition;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
-import com.samyotech.laundry.R;
-import com.samyotech.laundry.databinding.FragmentAboutBinding;
+import com.samyotech.laundrydriver.R;
+import com.samyotech.laundrydriver.databinding.FragmentAboutBinding;
 import com.samyotech.laundrydriver.interfaces.Consts;
 import com.samyotech.laundrydriver.model.PopLaundryDTO;
 import com.samyotech.laundrydriver.model.UserDTO;
 import com.samyotech.laundrydriver.preferences.SharedPrefrence;
-import com.samyotech.laundrydriver.ui.activity.Schedule_Activity;
-import com.samyotech.laundrydriver.ui.activity.ShopAcitivity;
 
 import java.util.Hashtable;
 

@@ -15,7 +15,6 @@ import com.samyotech.laundry.R;
 import com.samyotech.laundry.databinding.AdapterAllservicesBinding;
 import com.samyotech.laundrydriver.interfaces.Consts;
 import com.samyotech.laundrydriver.model.ServicesDTO;
-import com.samyotech.laundrydriver.ui.activity.TopServices;
 
 import java.util.ArrayList;
 

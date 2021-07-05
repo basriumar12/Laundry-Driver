@@ -18,7 +18,7 @@ import com.samyotech.laundrydriver.https.HttpsRequest;
 import com.samyotech.laundrydriver.interfaces.Consts;
 import com.samyotech.laundrydriver.interfaces.Helper;
 import com.samyotech.laundrydriver.model.OfferDTO;
-import com.samyotech.laundrydriver.ui.activity.NotificationActivity;
+import com.samyotech.laundrydriver.ui.activity.notif.NotificationActivity;
 import com.samyotech.laundrydriver.ui.adapter.OffersOtherAdapter;
 import com.samyotech.laundrydriver.utils.ProjectUtils;
 

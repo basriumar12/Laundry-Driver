@@ -20,7 +20,6 @@ import com.samyotech.laundrydriver.interfaces.Consts;
 import com.samyotech.laundrydriver.interfaces.Helper;
 import com.samyotech.laundrydriver.model.CurrencyDTO;
 import com.samyotech.laundrydriver.model.OrderListDTO;
-import com.samyotech.laundrydriver.ui.activity.OrderDetails;
 import com.samyotech.laundrydriver.ui.fragment.BookingFragment;
 import com.samyotech.laundrydriver.utils.AppFormat;
 import com.samyotech.laundrydriver.utils.ProjectUtils;

@@ -15,7 +15,6 @@ import com.samyotech.laundry.R;
 import com.samyotech.laundry.databinding.AdapterPopularLaundriesBinding;
 import com.samyotech.laundrydriver.interfaces.Consts;
 import com.samyotech.laundrydriver.model.PopLaundryDTO;
-import com.samyotech.laundrydriver.ui.activity.ShopAcitivity;
 
 import java.util.ArrayList;
 

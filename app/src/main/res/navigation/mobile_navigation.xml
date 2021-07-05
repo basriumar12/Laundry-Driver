@@ -6,7 +6,7 @@
 
     <fragment
         android:id="@+id/navigation_beranda"
-        android:name="com.samyotech.laundrydriver.ui.fragment.HomeFragment"
+        android:name="com.samyotech.laundrydriver.ui.fragment.home.HomeFragment"
         android:label="HomeFragment" />
     <fragment
         android:id="@+id/navigation_terdekat"
@@ -22,6 +22,6 @@
         android:label="OffersFragment" />
     <fragment
         android:id="@+id/navigation_akunku"
-        android:name="com.samyotech.laundrydriver.ui.fragment.ProfileFragment"
+        android:name="com.samyotech.laundrydriver.ui.fragment.profile.ProfileFragment"
         android:label="ProfileFragment" />
 </navigation>

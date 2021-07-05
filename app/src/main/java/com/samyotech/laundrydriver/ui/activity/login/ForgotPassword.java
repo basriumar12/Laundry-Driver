@@ -1,4 +1,4 @@
-package com.samyotech.laundrydriver.ui.activity;
+package com.samyotech.laundrydriver.ui.activity.login;
 
 import android.content.Context;
 import android.content.Intent;
@@ -13,12 +13,13 @@ import androidx.core.content.ContextCompat;
 import androidx.databinding.DataBindingUtil;
 
 import com.google.android.material.snackbar.Snackbar;
-import com.samyotech.laundry.R;
-import com.samyotech.laundry.databinding.ActivityForgotPasswordBinding;
+import com.samyotech.laundrydriver.R;
+import com.samyotech.laundrydriver.databinding.ActivityForgotPasswordBinding;
 import com.samyotech.laundrydriver.https.HttpsRequest;
 import com.samyotech.laundrydriver.interfaces.Consts;
 import com.samyotech.laundrydriver.interfaces.Helper;
 import com.samyotech.laundrydriver.network.NetworkManager;
+import com.samyotech.laundrydriver.ui.activity.register.Register;
 import com.samyotech.laundrydriver.utils.ProjectUtils;
 
 import org.json.JSONObject;

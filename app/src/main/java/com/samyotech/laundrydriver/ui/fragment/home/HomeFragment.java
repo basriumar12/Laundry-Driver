@@ -1,4 +1,4 @@
-package com.samyotech.laundrydriver.ui.fragment;
+package com.samyotech.laundrydriver.ui.fragment.home;
 
 import android.Manifest;
 import android.content.Context;
@@ -42,10 +42,9 @@ import com.samyotech.laundrydriver.model.ServicesDTO;
 import com.samyotech.laundrydriver.model.SpecialOfferPkgDTO;
 import com.samyotech.laundrydriver.model.UserDTO;
 import com.samyotech.laundrydriver.preferences.SharedPrefrence;
-import com.samyotech.laundrydriver.ui.activity.Dashboard;
-import com.samyotech.laundrydriver.ui.activity.NotificationActivity;
+import com.samyotech.laundrydriver.ui.activity.dashboard.Dashboard;
+import com.samyotech.laundrydriver.ui.activity.notif.NotificationActivity;
 import com.samyotech.laundrydriver.ui.activity.SearchActivity;
-import com.samyotech.laundrydriver.ui.activity.TopServices;
 import com.samyotech.laundrydriver.ui.adapter.ImageAdapter;
 import com.samyotech.laundrydriver.ui.adapter.LaundriesNearAdapter;
 import com.samyotech.laundrydriver.ui.adapter.PopularLaundriesAdapter;

@@ -1,4 +1,4 @@
-package com.samyotech.laundrydriver.ui.fragment;
+package com.samyotech.laundrydriver.ui.fragment.profile;
 
 import android.annotation.SuppressLint;
 import android.app.ProgressDialog;
@@ -19,21 +19,22 @@ import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.github.dhaval2404.imagepicker.ImagePicker;
 import com.google.gson.Gson;
-import com.samyotech.laundry.R;
-import com.samyotech.laundry.databinding.FragmentProfileBinding;
+import com.samyotech.laundrydriver.R;
+import com.samyotech.laundrydriver.databinding.FragmentProfileBinding;
 import com.samyotech.laundrydriver.https.HttpsRequest;
 import com.samyotech.laundrydriver.interfaces.Consts;
 import com.samyotech.laundrydriver.interfaces.Helper;
 import com.samyotech.laundrydriver.model.UserDTO;
 import com.samyotech.laundrydriver.preferences.SharedPrefrence;
-import com.samyotech.laundrydriver.ui.activity.About;
-import com.samyotech.laundrydriver.ui.activity.ChangPassword;
+import com.samyotech.laundrydriver.ui.activity.about.About;
+import com.samyotech.laundrydriver.ui.activity.manage.ChangPassword;
 import com.samyotech.laundrydriver.ui.activity.ChatList;
-import com.samyotech.laundrydriver.ui.activity.Dashboard;
-import com.samyotech.laundrydriver.ui.activity.Login;
-import com.samyotech.laundrydriver.ui.activity.ManageProfile;
-import com.samyotech.laundrydriver.ui.activity.NotificationActivity;
-import com.samyotech.laundrydriver.ui.activity.TicketsActivity;
+import com.samyotech.laundrydriver.ui.activity.dashboard.Dashboard;
+import com.samyotech.laundrydriver.ui.activity.login.Login;
+import com.samyotech.laundrydriver.ui.activity.manage.ManageProfile;
+import com.samyotech.laundrydriver.ui.activity.notif.NotificationActivity;
+import com.samyotech.laundrydriver.ui.activity.tiket.TicketsActivity;
+import com.samyotech.laundrydriver.ui.fragment.BottomSheetFragment;
 import com.samyotech.laundrydriver.utils.ProjectUtils;
 
 import org.json.JSONException;

@@ -1,4 +1,4 @@
-package com.samyotech.laundrydriver.ui.activity;
+package com.samyotech.laundrydriver.ui.activity.tiket;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -19,7 +19,7 @@ import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
-import com.samyotech.laundry.R;
+import com.samyotech.laundrydriver.R;
 import com.samyotech.laundrydriver.https.HttpsRequest;
 import com.samyotech.laundrydriver.interfaces.Consts;
 import com.samyotech.laundrydriver.interfaces.Helper;

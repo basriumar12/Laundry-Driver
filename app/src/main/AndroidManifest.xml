@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.samyotech.laundry">
+    package="com.samyotech.laundrydriver">
 
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -23,33 +23,19 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true"
         tools:replace="android:allowBackup,android:supportsRtl">
-        <activity android:name="com.samyotech.laundrydriver.ui.activity.OtpActivity"
+        <activity android:name="com.samyotech.laundrydriver.ui.activity.otp.OtpActivity"
             android:launchMode="singleTop"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysVisible"
            />
-        <activity android:name="com.samyotech.laundrydriver.ui.activity.SuksesRegisterActivity" />
         <activity
-            android:name="com.samyotech.laundrydriver.ui.activity.About"
+            android:name="com.samyotech.laundrydriver.ui.activity.about.About"
             android:label="@string/title_activity_about" />
-        <activity android:name="com.samyotech.laundrydriver.ui.activity.AllServices" />
         <activity
-            android:name="com.samyotech.laundrydriver.ui.activity.NotificationActivity"
+            android:name="com.samyotech.laundrydriver.ui.activity.notif.NotificationActivity"
             android:launchMode="singleTop" />
         <activity
             android:name="com.samyotech.laundrydriver.ui.activity.SearchActivity"
-            android:launchMode="singleTop" />
-        <activity
-            android:name="com.samyotech.laundrydriver.ui.activity.OrderDetails"
-            android:launchMode="singleTop" />
-        <activity android:name="com.samyotech.laundrydriver.ui.activity.BookingConfirmActivity" />
-        <activity android:name="com.samyotech.laundrydriver.ui.activity.BookingPaymentActivity" />
-        <activity android:name="com.samyotech.laundrydriver.ui.activity.BookingPickDateTimeActivity" />
-        <activity android:name="com.samyotech.laundrydriver.ui.activity.BookingPickAddressActivity" />
-        <activity android:name="com.samyotech.laundrydriver.ui.activity.PreviewOrderActivity" />
-        <activity android:name="com.samyotech.laundrydriver.ui.activity.Schedule_Activity" />
-        <activity
-            android:name="com.samyotech.laundrydriver.ui.activity.ShopAcitivity"
             android:launchMode="singleTop" />
 
         <meta-data
@@ -57,38 +43,34 @@
             android:value="AIzaSyBjwJISIDoiwfMcS9ue6RwZ-GsvLhp2seg" />
 
         <activity
-            android:name="com.samyotech.laundrydriver.ui.activity.WelcomeScreens"
+            android:name="com.samyotech.laundrydriver.ui.activity.welcome.WelcomeScreens"
             android:exported="true"
             android:launchMode="singleTop"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden" />
         <activity
-            android:name="com.samyotech.laundrydriver.ui.activity.ManageProfile"
+            android:name="com.samyotech.laundrydriver.ui.activity.manage.ManageProfile"
             android:launchMode="singleTop"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden" />
         <activity
-            android:name="com.samyotech.laundrydriver.ui.activity.TicketChatActivity"
+            android:name="com.samyotech.laundrydriver.ui.activity.tiket.TicketChatActivity"
             android:launchMode="singleTop"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden" />
         <activity
-            android:name="com.samyotech.laundrydriver.ui.activity.Dashboard"
+            android:name="com.samyotech.laundrydriver.ui.activity.dashboard.Dashboard"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.samyotech.laundrydriver.ui.activity.ForgotPassword"
+            android:name="com.samyotech.laundrydriver.ui.activity.login.ForgotPassword"
             android:launchMode="singleTop"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.samyotech.laundrydriver.ui.activity.Login"
+            android:name="com.samyotech.laundrydriver.ui.activity.login.Login"
             android:launchMode="singleTop"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.samyotech.laundrydriver.ui.activity.TopServices"
-            android:launchMode="singleTop"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name="com.samyotech.laundrydriver.ui.activity.Register"
+            android:name="com.samyotech.laundrydriver.ui.activity.register.Register"
             android:launchMode="singleTop"
             android:screenOrientation="portrait" />
         <activity
@@ -96,11 +78,11 @@
             android:launchMode="singleTop"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.samyotech.laundrydriver.ui.activity.TicketsActivity"
+            android:name="com.samyotech.laundrydriver.ui.activity.tiket.TicketsActivity"
             android:launchMode="singleTop"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.samyotech.laundrydriver.ui.activity.ChangPassword"
+            android:name="com.samyotech.laundrydriver.ui.activity.manage.ChangPassword"
             android:launchMode="singleTop"
             android:screenOrientation="portrait" />
         <activity
@@ -150,7 +132,7 @@
         <activity
             android:name="com.schibstedspain.leku.LocationPickerActivity"
             android:label="@string/leku_title_activity_location_picker"
-            android:parentActivityName="com.samyotech.laundrydriver.ui.activity.Dashboard"
+            android:parentActivityName="com.samyotech.laundrydriver.ui.activity.dashboard.Dashboard"
             android:theme="@style/AppTheme.Map"
             android:windowSoftInputMode="adjustPan">
             <intent-filter>
@@ -162,7 +144,7 @@
                 android:resource="@xml/leku_searchable" />
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.samyotech.laundrydriver.ui.activity.Dashboard" />
+                android:value="com.samyotech.laundrydriver.ui.activity.dashboard.Dashboard" />
             <meta-data
                 android:name="com.google.firebase.messaging.default_notification_icon"
                 android:resource="@mipmap/ic_launcher_round" />
@@ -170,7 +152,6 @@
                 android:name="com.google.android.gms.version"
                 android:value="@integer/google_play_services_version" />
         </activity>
-        <activity android:name="com.samyotech.laundrydriver.ui.activity.ServiceActivity" />
 
         <service
             android:name="com.samyotech.laundrydriver.MyFirebaseMessagingService"

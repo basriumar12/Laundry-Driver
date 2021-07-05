@@ -1,4 +1,4 @@
-package com.samyotech.laundrydriver.ui.activity;
+package com.samyotech.laundrydriver.ui.activity.notif;
 
 import android.content.Context;
 import android.os.Bundle;

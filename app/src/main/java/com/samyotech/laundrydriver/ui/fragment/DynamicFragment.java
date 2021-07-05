@@ -20,7 +20,6 @@ import com.samyotech.laundrydriver.model.CurrencyDTO;
 import com.samyotech.laundrydriver.model.ItemDTO;
 import com.samyotech.laundrydriver.model.ItemListDTO;
 import com.samyotech.laundrydriver.preferences.SharedPrefrence;
-import com.samyotech.laundrydriver.ui.activity.Schedule_Activity;
 import com.samyotech.laundrydriver.ui.adapter.ItemAdapter;
 
 import java.util.ArrayList;

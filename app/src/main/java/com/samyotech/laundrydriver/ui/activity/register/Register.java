@@ -1,4 +1,4 @@
-package com.samyotech.laundrydriver.ui.activity;
+package com.samyotech.laundrydriver.ui.activity.register;
 
 import android.content.Context;
 import android.content.Intent;
@@ -21,14 +21,16 @@ import androidx.databinding.DataBindingUtil;
 
 import com.google.android.material.snackbar.Snackbar;
 import com.google.gson.Gson;
-import com.samyotech.laundry.R;
-import com.samyotech.laundry.databinding.ActivityRegisterBinding;
+import com.samyotech.laundrydriver.R;
+import com.samyotech.laundrydriver.databinding.ActivityRegisterBinding;
 import com.samyotech.laundrydriver.https.HttpsRequest;
 import com.samyotech.laundrydriver.interfaces.Consts;
 import com.samyotech.laundrydriver.interfaces.Helper;
 import com.samyotech.laundrydriver.model.RegisterNewDto;
 import com.samyotech.laundrydriver.network.NetworkManager;
 import com.samyotech.laundrydriver.preferences.SharedPrefrence;
+import com.samyotech.laundrydriver.ui.activity.login.Login;
+import com.samyotech.laundrydriver.ui.activity.otp.OtpActivity;
 import com.samyotech.laundrydriver.utils.ProjectUtils;
 import com.schibstedspain.leku.LocationPickerActivity;
 

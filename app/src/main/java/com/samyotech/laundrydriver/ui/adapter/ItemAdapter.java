@@ -16,7 +16,6 @@ import com.samyotech.laundry.databinding.AdapterItemBinding;
 import com.samyotech.laundrydriver.interfaces.Consts;
 import com.samyotech.laundrydriver.model.CurrencyDTO;
 import com.samyotech.laundrydriver.model.ItemServiceDTO;
-import com.samyotech.laundrydriver.ui.activity.Schedule_Activity;
 import com.samyotech.laundrydriver.utils.AppFormat;
 
 import java.util.ArrayList;

@@ -6,7 +6,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        tools:context="com.samyotech.laundrydriver.ui.activity.NotificationActivity">
+        tools:context="com.samyotech.laundrydriver.ui.activity.notif.NotificationActivity">
 
         <LinearLayout
             android:layout_width="match_parent"

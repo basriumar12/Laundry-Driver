@@ -21,7 +21,7 @@ import com.google.firebase.messaging.RemoteMessage;
 import com.samyotech.laundry.R;
 import com.samyotech.laundrydriver.interfaces.Consts;
 import com.samyotech.laundrydriver.preferences.SharedPrefrence;
-import com.samyotech.laundrydriver.ui.activity.Dashboard;
+import com.samyotech.laundrydriver.ui.activity.dashboard.Dashboard;
 
 import java.util.Map;
 
