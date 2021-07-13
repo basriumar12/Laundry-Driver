@@ -11,8 +11,8 @@ import androidx.databinding.DataBindingUtil;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
-import com.samyotech.laundry.R;
-import com.samyotech.laundry.databinding.AdapterOffersBinding;
+import com.samyotech.laundrydriver.R;
+import com.samyotech.laundrydriver.databinding.AdapterOffersBinding;
 import com.samyotech.laundrydriver.interfaces.Consts;
 import com.samyotech.laundrydriver.model.OfferDTO;
 

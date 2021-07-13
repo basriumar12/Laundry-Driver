@@ -23,7 +23,7 @@ import com.isseiaoki.simplecropview.callback.CropCallback;
 import com.isseiaoki.simplecropview.callback.LoadCallback;
 import com.isseiaoki.simplecropview.callback.SaveCallback;
 import com.isseiaoki.simplecropview.util.Utils;
-import com.samyotech.laundry.R;
+import com.samyotech.laundrydriver.R;
 import com.samyotech.laundrydriver.interfaces.Consts;
 
 import java.io.File;

@@ -12,7 +12,7 @@ import androidx.appcompat.widget.AppCompatImageView;
 import androidx.viewpager.widget.PagerAdapter;
 
 import com.bumptech.glide.Glide;
-import com.samyotech.laundry.R;
+import com.samyotech.laundrydriver.R;
 import com.samyotech.laundrydriver.model.WelcomeDTO;
 
 import java.util.ArrayList;

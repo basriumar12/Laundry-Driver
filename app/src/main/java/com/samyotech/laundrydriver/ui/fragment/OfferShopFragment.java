@@ -13,8 +13,8 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
-import com.samyotech.laundry.R;
-import com.samyotech.laundry.databinding.FragmentOfferShopBinding;
+import com.samyotech.laundrydriver.R;
+import com.samyotech.laundrydriver.databinding.FragmentOfferShopBinding;
 import com.samyotech.laundrydriver.https.HttpsRequest;
 import com.samyotech.laundrydriver.interfaces.Consts;
 import com.samyotech.laundrydriver.interfaces.Helper;
@@ -44,7 +44,6 @@ public class OfferShopFragment extends Fragment {
     HashMap<String, String> params = new HashMap<>();
     OffersOtherAdapter offersAdapter;
     PopLaundryDTO popLaundryDTO;
-    ShopAcitivity serviceAcitivity;
     boolean checkClick = true;
     int page = 20;
     boolean request = false;
@@ -132,7 +131,6 @@ public class OfferShopFragment extends Fragment {
     @Override
     public void onAttach(@NonNull Context context) {
         super.onAttach(context);
-        serviceAcitivity = (ShopAcitivity) context;
     }
 
 

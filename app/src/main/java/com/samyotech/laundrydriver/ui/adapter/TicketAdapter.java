@@ -14,8 +14,8 @@ import androidx.annotation.NonNull;
 import androidx.databinding.DataBindingUtil;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.samyotech.laundry.R;
-import com.samyotech.laundry.databinding.AdapterTicketBinding;
+import com.samyotech.laundrydriver.R;
+import com.samyotech.laundrydriver.databinding.AdapterTicketBinding;
 import com.samyotech.laundrydriver.interfaces.Consts;
 import com.samyotech.laundrydriver.model.TicketDTO;
 import com.samyotech.laundrydriver.model.UserDTO;

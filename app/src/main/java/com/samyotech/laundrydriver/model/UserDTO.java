@@ -22,6 +22,15 @@ public class UserDTO implements Serializable {
     String device_token = "";
     String email_token = "";
     String created_at = "";
+    String otp_sms = "";
+
+    public String getOtp_sms() {
+        return otp_sms;
+    }
+
+    public void setOtp_sms(String otp_sms) {
+        this.otp_sms = otp_sms;
+    }
 
     public String getBackground() {
         return background;

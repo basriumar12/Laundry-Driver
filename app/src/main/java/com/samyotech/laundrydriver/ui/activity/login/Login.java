@@ -44,6 +44,7 @@ import com.samyotech.laundrydriver.model.UserDTO;
 import com.samyotech.laundrydriver.network.NetworkManager;
 import com.samyotech.laundrydriver.preferences.SharedPrefrence;
 import com.samyotech.laundrydriver.ui.activity.dashboard.Dashboard;
+import com.samyotech.laundrydriver.ui.activity.otp.OtpActivity;
 import com.samyotech.laundrydriver.ui.activity.register.Register;
 import com.samyotech.laundrydriver.utils.ProjectUtils;
 
@@ -269,7 +270,7 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
 
                         prefrence.setBooleanValue(Consts.IS_REGISTERED, true);
 
-                        Intent in = new Intent(mContext, Dashboard.class);
+                        Intent in = new Intent(mContext, OtpActivity.class);
                         startActivity(in);
                         finish();
                         overridePendingTransition(R.anim.anim_slide_in_left,

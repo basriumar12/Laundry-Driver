@@ -7,7 +7,7 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
 
-import com.samyotech.laundry.R;
+import com.samyotech.laundrydriver.R;
 import com.samyotech.laundrydriver.model.TicketCommentDTO;
 import com.samyotech.laundrydriver.model.UserDTO;
 import com.samyotech.laundrydriver.utils.ProjectUtils;

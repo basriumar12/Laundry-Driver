@@ -39,7 +39,7 @@ import androidx.customview.view.AbsSavedState;
 import androidx.customview.widget.ViewDragHelper;
 
 import com.google.android.material.bottomsheet.BottomSheetBehavior;
-import com.samyotech.laundry.R;
+import com.samyotech.laundrydriver.R;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;

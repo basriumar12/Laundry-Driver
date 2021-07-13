@@ -13,8 +13,8 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 
 import com.google.gson.Gson;
-import com.samyotech.laundry.R;
-import com.samyotech.laundry.databinding.FragmentBookingBinding;
+import com.samyotech.laundrydriver.R;
+import com.samyotech.laundrydriver.databinding.FragmentBookingBinding;
 import com.samyotech.laundrydriver.https.HttpsRequest;
 import com.samyotech.laundrydriver.interfaces.Consts;
 import com.samyotech.laundrydriver.interfaces.Helper;
@@ -23,7 +23,6 @@ import com.samyotech.laundrydriver.model.CurrencyDTO;
 import com.samyotech.laundrydriver.model.UserDTO;
 import com.samyotech.laundrydriver.preferences.SharedPrefrence;
 import com.samyotech.laundrydriver.ui.activity.notif.NotificationActivity;
-import com.samyotech.laundrydriver.ui.adapter.BookingAdapter;
 import com.samyotech.laundrydriver.utils.ProjectUtils;
 
 import org.json.JSONException;
@@ -40,7 +39,6 @@ public class BookingFragment extends Fragment {
     String TAG = BookingFragment.class.getSimpleName();
     FragmentBookingBinding binding;
     LinearLayoutManager linearLayoutManager;
-    BookingAdapter bookingAdapter;
     ArrayList<BookingDTO> bookingDTOS = new ArrayList<>();
     HashMap<String, String> params = new HashMap<>();
     BookingDTO bookingDTO;
@@ -80,29 +78,7 @@ public class BookingFragment extends Fragment {
             }
         });
 
-        binding.cetSearch.addTextChangedListener(new TextWatcher() {
-            @Override
-            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
 
-            }
-
-            @Override
-            public void onTextChanged(CharSequence s, int start, int before, int count) {
-
-                if (s.length() > 0) {
-                    bookingAdapter.filter(s.toString());
-
-
-                } else {
-
-                }
-            }
-
-            @Override
-            public void afterTextChanged(Editable s) {
-
-            }
-        });
 
         binding.ivNotification.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -146,8 +122,7 @@ public class BookingFragment extends Fragment {
 
         linearLayoutManager = new LinearLayoutManager(getActivity(), LinearLayoutManager.VERTICAL, false);
         binding.rvBooking.setLayoutManager(linearLayoutManager);
-        bookingAdapter = new BookingAdapter(getActivity(), bookingDTO.getOrder_list(), BookingFragment.this, currencyDTO);
-        binding.rvBooking.setAdapter(bookingAdapter);
+
     }
 
 

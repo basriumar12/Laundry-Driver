@@ -29,8 +29,8 @@ import com.google.android.gms.location.FusedLocationProviderClient;
 import com.google.android.gms.location.LocationServices;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.gson.Gson;
-import com.samyotech.laundry.R;
-import com.samyotech.laundry.databinding.HomeFragmentBinding;
+import com.samyotech.laundrydriver.R;
+import com.samyotech.laundrydriver.databinding.HomeFragmentBinding;
 import com.samyotech.laundrydriver.https.HttpsRequest;
 import com.samyotech.laundrydriver.interfaces.Consts;
 import com.samyotech.laundrydriver.interfaces.Helper;
@@ -44,12 +44,8 @@ import com.samyotech.laundrydriver.model.UserDTO;
 import com.samyotech.laundrydriver.preferences.SharedPrefrence;
 import com.samyotech.laundrydriver.ui.activity.dashboard.Dashboard;
 import com.samyotech.laundrydriver.ui.activity.notif.NotificationActivity;
-import com.samyotech.laundrydriver.ui.activity.SearchActivity;
 import com.samyotech.laundrydriver.ui.adapter.ImageAdapter;
-import com.samyotech.laundrydriver.ui.adapter.LaundriesNearAdapter;
-import com.samyotech.laundrydriver.ui.adapter.PopularLaundriesAdapter;
 import com.samyotech.laundrydriver.ui.adapter.SpecialOffersAdapter;
-import com.samyotech.laundrydriver.ui.adapter.TopServiceAdapter;
 import com.samyotech.laundrydriver.utils.ProjectUtils;
 import com.schibstedspain.leku.LocationPickerActivity;
 
@@ -77,16 +73,14 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
     Timer timer;
     Dashboard dashBoard;
     String TAG = HomeFragment.class.getSimpleName();
-    TopServiceAdapter topServiceAdapter;
+
     ArrayList<ServicesDTO> servicesDTOArrayList;
     GridLayoutManager layoutManagerServ;
-    PopularLaundriesAdapter popularLaundriesAdapter;
     ArrayList<PopLaundryDTO> popLaundryDTOArrayList;
     RecyclerView.LayoutManager layoutManagerPop;
     SpecialOffersAdapter specialOffersAdapter;
     ArrayList<SpecialOfferPkgDTO> specialOffersAdapterArrayList;
     RecyclerView.LayoutManager layoutManagerOffer;
-    LaundriesNearAdapter laundriesNearAdapter;
     ArrayList<NearBYDTO> nearBYDTOArrayList;
     RecyclerView.LayoutManager layoutManagerNear;
     HashMap<String, String> params = new HashMap<>();
@@ -217,15 +211,6 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
         binding.viewpager.setAdapter(imageAdapter);
         binding.tabDots.setViewPager(binding.viewpager);
 
-        layoutManagerServ = new GridLayoutManager(getActivity(), 3);
-        binding.layananKamiRecyclerview.setLayoutManager(layoutManagerServ);
-        topServiceAdapter = new TopServiceAdapter(getActivity(), homeDTO.getService());
-        binding.layananKamiRecyclerview.setAdapter(topServiceAdapter);
-
-        layoutManagerNear = new LinearLayoutManager(getActivity(), LinearLayoutManager.HORIZONTAL, false);
-        binding.laundryTerdekatRecyclerview.setLayoutManager(layoutManagerNear);
-        laundriesNearAdapter = new LaundriesNearAdapter(getActivity(), homeDTO.getNear_by());
-        binding.laundryTerdekatRecyclerview.setAdapter(laundriesNearAdapter);
 
         binding.lihatSemuaLaundryTerdekat.setOnClickListener(this);
         binding.ivSearch.setOnClickListener(this);
@@ -346,18 +331,8 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
     @Override
     public void onClick(View v) {
         switch (v.getId()) {
-            case R.id.lihat_semua_laundry_terdekat:
-                Intent in2 = new Intent(getActivity(), TopServices.class);
-                startActivity(in2);
-                break;
-//            case R.id.lihat_semua_layanan_kami:
-//                Intent in = new Intent(getActivity(), AllServices.class);
-//                startActivity(in);
-//                break;
-            case R.id.ivSearch:
-                Intent in3 = new Intent(getActivity(), SearchActivity.class);
-                startActivity(in3);
-                break;
+
+
             case R.id.ivNotification:
                 Intent in4 = new Intent(getActivity(), NotificationActivity.class);
                 startActivity(in4);

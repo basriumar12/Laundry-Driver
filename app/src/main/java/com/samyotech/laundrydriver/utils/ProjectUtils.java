@@ -35,7 +35,7 @@ import android.widget.Toast;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 
-import com.samyotech.laundry.R;
+import com.samyotech.laundrydriver.R;
 import com.samyotech.laundrydriver.interfaces.Consts;
 
 import java.io.ByteArrayOutputStream;

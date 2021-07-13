@@ -34,9 +34,6 @@
         <activity
             android:name="com.samyotech.laundrydriver.ui.activity.notif.NotificationActivity"
             android:launchMode="singleTop" />
-        <activity
-            android:name="com.samyotech.laundrydriver.ui.activity.SearchActivity"
-            android:launchMode="singleTop" />
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
@@ -164,7 +161,7 @@
 
         <provider
             android:name="androidx.core.content.FileProvider"
-            android:authorities="com.samyotech.laundry.fileprovider"
+            android:authorities="com.samyotech.laundrydriver.fileprovider"
             android:exported="false"
             android:grantUriPermissions="true">
             <meta-data

@@ -11,7 +11,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment;
-import com.samyotech.laundry.R;
+import com.samyotech.laundrydriver.R;
 
 public class BottomSheetFragment extends BottomSheetDialogFragment {
     ClickListener listener;

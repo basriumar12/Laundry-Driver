@@ -8,8 +8,8 @@ import androidx.annotation.NonNull;
 import androidx.databinding.DataBindingUtil;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.samyotech.laundry.R;
-import com.samyotech.laundry.databinding.AdapterNotificationBinding;
+import com.samyotech.laundrydriver.R;
+import com.samyotech.laundrydriver.databinding.AdapterNotificationBinding;
 import com.samyotech.laundrydriver.model.NotificationDTO;
 import com.samyotech.laundrydriver.utils.ProjectUtils;
 

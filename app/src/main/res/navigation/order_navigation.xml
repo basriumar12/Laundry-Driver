@@ -17,7 +17,7 @@
         android:name="com.samyotech.laundrydriver.ui.fragment.BookingFragment"
         android:label="BookingFragment" />
     <fragment
-        android:id="@+id/navigation_promo"
+        android:id="@+id/navigation_notif"
         android:name="com.samyotech.laundrydriver.ui.fragment.OffersFragment"
         android:label="OffersFragment" />
     <fragment

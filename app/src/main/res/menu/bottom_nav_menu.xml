@@ -16,7 +16,7 @@
         android:icon="@drawable/icon_note"
         android:title="Pesanan" />
     <item
-        android:id="@+id/navigation_promo"
+        android:id="@+id/navigation_notif"
         android:icon="@drawable/icon_offer"
         android:title="Promo" />
     <item

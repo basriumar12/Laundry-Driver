@@ -3,24 +3,33 @@ package com.samyotech.laundrydriver.interfaces;
 public interface Consts {
 
     String APP_NAME = "laundry";
-//    String DEV_URL = "http://192.168.1.5/win-laundry/";
-   // String DEV_URL = "http://192.168.88.19/win-laundry/";
-    String DEV_URL = "http://windigitalkhatulistiwa.com/laundryapp_tes/";
+    //    String DEV_URL = "http://192.168.1.5/win-laundry/";
+    // String DEV_URL = "http://192.168.88.19/win-laundry/";
+    String DEV_URL = "http://blcstore.id/dunia-laundry/api_driver/";
     String PROD_URL = "http://laundryapp.windigitalkhatulistiwa.com/";
     String BASE_URL =PROD_URL;
-    String API_URL = BASE_URL + "api/";
+    String API_URL = DEV_URL;
 
 
     /*-----Apis-----*/
+    String lainya ="lainnya";
+    String messagedetail ="chatt/detail_pesan";
+    String username = "dunialaundry";
+    String pass ="laundry123";
     String FORGOTPASSWORD = "forgotPassword";
     String RESENDOTP = "resendOtpSms";
-    String OTPSMS = "otpSms";
-    String SIGNUP = "signup";
+    String OTPSMS = "register/otp_sms";
+    String ID_USER = "id_user";
+    String NAMA_MITRA = "nama_mitra";
+    String OTP = "id_user";
+    String SIGNUP = "register";
+    String HOME_PENTING = "home";
+
     String LOGIN = "login";
-    String LOGIN_GOOGLE = "loginGoogle";
+    String LOGIN_GOOGLE = "login/google";
     String LOGOUT = "logOut";
     String DELETEACCOUNT = "deleteAccount";
-    String CHANGEPASSWORD = "changePassword";
+    String CHANGEPASSWORD = "lainnya/edit_password";
     String GETHOMEDATA = "getHomeData";
     String GETALLSERVICE = "getAllService";
     String SEARCH = "search";
@@ -31,37 +40,65 @@ public interface Consts {
     String GETALLLAUNDRYSHOP = "getAllLaundryShop";
     String GETLAUNDRYSHOP = "getLaundryById";
     String GETBOOKINGLIST = "getBookingList";
-    String ADDTIKET = "addTiket";
-    String TIKETLIST = "tiketList";
+    String GET_TERLARIS = "home/terlaris";
+    String ADDTIKET = "lainnya/tambah_tiket";
+    String TIKETLIST = "lainnya/tiket";
     String GETSHOPSERVICES = "getShopServices";
     String GETITEMBYSHOPID = "getItembyShopId";
     String APPLYPROMOCODE = "applyPromocode";
     String GETMESSAGE = "getMessage";
-    String SETMESSAGE = "setMessage";
+    String SETMESSAGE = "chatt/kirim_pesan";
     String ORDERSUBMIT = "orderSubmit";
     String ORDERCANCEL = "orderCancel";
     String ADDRATING = "addRating";
     String GETRATING = "getRating";
-    String GETMESSAGEHISTORY = "getMessageHistory";
+    String GETMESSAGEHISTORY = "chatt";
     String GETLAUNDRYBYSERVICE = "getLaundryByService";
-    String GET_NOTIFICATION = "get_notification";
+    String GET_NOTIFICATION = "notifikasi";
     String GETCURRENCY = "getCurrency";
     String GETTIKETCOMMENT = "getTiketComment";
     String ADDTIKETCOMMENT = "addTiketComment";
-    String USERUPDATE = "userUpdate";
+    String USERUPDATE = "lainnya/edit_akun";
+    String EDITREKENING = "lainnya/edit_rekening";
+    String PENGAJUANDANA = "lainnya/pengajuan_dana";
+    String USERUPDATE_FOTO_PROFILE = "lainnya/edit_foto_profile";
+    String USERUPDATE_FOTO_BACKGROUND = "lainnya/edit_foto_background";
+    String REGISTER_MITRA = "register/mitra";
     String ORDERIPAYMU = "orderipaymu";
 
 
     /*LOGINSIGNUPPARAMS*/
     String EMAIL = "email";
     String ADDRESS = "address";
+    String ALAMAT = "alamat";
+    String JAMBUKA = "jam_buka";
+    String JAMTUTUP = "jam_tutup";
+    String EDIT_ALAMAT = "lainnya/edit_alamat";
+    String EDIT_OP = "lainnya/edit_jam";
     String NAME = "name";
+    String NAME_MITRA = "nama_mitra";
+    String NAME_BANK = "nama_bank";
+    String DANA_TOTAL = "dana";
+    String NO_REKENING = "no_rekening";
+    String NAMA_PEMILIK = "nama_pemilik";
+    String ALAMAT_MITRA = "alamat";
+    String LATITUDE = "latitude";
+    String LONGITUDE = "longitude";
     String PASSWORD = "password";
+    String PASSWORD_LAMA = "password_lama";
+    String PASSWORD_REPLACE = "password_baru";
+    String PASSWORD_REPLACENG = "password_replace";
+    String PASSWORD_REPLACE_ = "password_baru_ulang";
+    String SHOP_ID = "shop_id";
     String COUNTRY_CODE = "country_code";
     String DEVICE_TYPE = "device_type";
     String MOBILE = "mobile";
+    String TYPE_REGISTER = "type";
+    String NO_HP = "no_hp";
     String DEVICE_TOKEN = "device_token";
 
+    String edit_notif="lainnya/edit_notif";
+    String edit_notif_email = "lainnya/edit_notif_email";
     String FLAG = "flag";
     String USER_DTO = "userdto";
     String REGISTER_DTO = "registerdto";
@@ -74,6 +111,8 @@ public interface Consts {
     String RATING = "rating";
     String TIKET_ID = "tiket_id";
     String IMAGE = "image";
+    String FILE = "file";
+    String UPLOAD_KTP ="register/foto_ktp";
     String S_NO = "s_no";
     String STATUS = "status";
     String CREATED_AT = "created_at";
@@ -87,8 +126,6 @@ public interface Consts {
 
     String CAMERA_ACCEPTED = "camera_accepted";
     String STORAGE_ACCEPTED = "storage_accepted";
-    String LATITUDE = "latitude";
-    String LONGITUDE = "longitude";
     String MODIFY_AUDIO_ACCEPTED = "modify_audio_accepted";
     String FINE_LOC = "fine_loc";
     String CORAS_LOC = "coras_loc";
@@ -100,7 +137,7 @@ public interface Consts {
     String IS_NOT_FIRST_TIME = "is_first_time";
 
     String ORDER_ID = "order_id";
-    String SHOP_ID = "shop_id";
+
     String SERVICE_ID = "service_id";
     String SERVICEDTO = "servicedto";
     String SHOPSERVICEDTO = "shopservicedto";
@@ -136,4 +173,5 @@ public interface Consts {
     //language
     String LANGUAGE = "language";
     String BACKGROUND = "background";
+    String message_head ="message_head" ;
 }

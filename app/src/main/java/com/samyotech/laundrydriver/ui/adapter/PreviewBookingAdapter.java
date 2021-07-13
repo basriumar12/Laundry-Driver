@@ -8,8 +8,8 @@ import androidx.annotation.NonNull;
 import androidx.databinding.DataBindingUtil;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.samyotech.laundry.R;
-import com.samyotech.laundry.databinding.AdapterPreviewBinding;
+import com.samyotech.laundrydriver.R;
+import com.samyotech.laundrydriver.databinding.AdapterPreviewBinding;
 import com.samyotech.laundrydriver.model.CurrencyDTO;
 import com.samyotech.laundrydriver.model.ItemDetailsDTO;
 import com.samyotech.laundrydriver.preferences.SharedPrefrence;

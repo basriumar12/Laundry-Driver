@@ -18,7 +18,6 @@ import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 
 import com.google.firebase.messaging.FirebaseMessagingService;
 import com.google.firebase.messaging.RemoteMessage;
-import com.samyotech.laundry.R;
 import com.samyotech.laundrydriver.interfaces.Consts;
 import com.samyotech.laundrydriver.preferences.SharedPrefrence;
 import com.samyotech.laundrydriver.ui.activity.dashboard.Dashboard;

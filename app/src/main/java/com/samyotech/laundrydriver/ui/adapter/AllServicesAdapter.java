@@ -11,8 +11,8 @@ import androidx.databinding.DataBindingUtil;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
-import com.samyotech.laundry.R;
-import com.samyotech.laundry.databinding.AdapterAllservicesBinding;
+import com.samyotech.laundrydriver.R;
+import com.samyotech.laundrydriver.databinding.AdapterAllservicesBinding;
 import com.samyotech.laundrydriver.interfaces.Consts;
 import com.samyotech.laundrydriver.model.ServicesDTO;
 
@@ -51,14 +51,7 @@ public class AllServicesAdapter extends RecyclerView.Adapter<AllServicesAdapter.
 
         holder.binding.namaJasa.setText(popLaundryDTOArrayList.get(position).getService_name());
 
-        holder.binding.container.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent in = new Intent(kContext, TopServices.class);
-                in.putExtra(Consts.SERVICE_ID, popLaundryDTOArrayList.get(position).getService_id());
-                kContext.startActivity(in);
-            }
-        });
+
     }
 
     @Override

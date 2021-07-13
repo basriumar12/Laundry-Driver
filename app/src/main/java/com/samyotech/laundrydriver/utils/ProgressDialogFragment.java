@@ -17,7 +17,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.DialogFragment;
 
-import com.samyotech.laundry.R;
+import com.samyotech.laundrydriver.R;
 
 
 public class ProgressDialogFragment extends DialogFragment {

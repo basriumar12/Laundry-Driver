@@ -20,7 +20,6 @@ import com.samyotech.laundrydriver.model.CurrencyDTO;
 import com.samyotech.laundrydriver.preferences.SharedPrefrence;
 import com.samyotech.laundrydriver.ui.fragment.BookingFragment;
 import com.samyotech.laundrydriver.ui.fragment.home.HomeFragment;
-import com.samyotech.laundrydriver.ui.fragment.NearByFragment;
 import com.samyotech.laundrydriver.ui.fragment.OffersFragment;
 import com.samyotech.laundrydriver.ui.fragment.profile.ProfileFragment;
 import com.samyotech.laundrydriver.utils.ProjectUtils;
@@ -34,7 +33,6 @@ public class Dashboard extends AppCompatActivity {
     Fragment fragment;
     Context mContext;
     HomeFragment homeFragment = new HomeFragment();
-    NearByFragment nearByFragment = new NearByFragment();
     BookingFragment bookingFragment = new BookingFragment();
     OffersFragment offersFragment = new OffersFragment();
     ProfileFragment profileFragment = new ProfileFragment();

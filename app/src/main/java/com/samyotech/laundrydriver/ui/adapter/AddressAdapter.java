@@ -8,8 +8,8 @@ import androidx.annotation.NonNull;
 import androidx.databinding.DataBindingUtil;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.samyotech.laundry.R;
-import com.samyotech.laundry.databinding.AdapterAddressBinding;
+import com.samyotech.laundrydriver.R;
+import com.samyotech.laundrydriver.databinding.AdapterAddressBinding;
 import com.samyotech.laundrydriver.model.AddressDTO;
 
 import java.util.ArrayList;

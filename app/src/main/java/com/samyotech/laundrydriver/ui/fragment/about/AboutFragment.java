@@ -40,7 +40,6 @@ public class AboutFragment extends Fragment {
     PopLaundryDTO popLaundryDTO;
     MarkerOptions markerOptions;
     LatLng sydney;
-    ShopAcitivity serviceAcitivity;
     boolean checkClick = true;
     private SharedPrefrence prefrence;
     private GoogleMap googleMap;
@@ -111,15 +110,7 @@ public class AboutFragment extends Fragment {
         binding.alamat.setText(popLaundryDTO.getAddress());
         binding.rating.setText(popLaundryDTO.getRating());
         binding.arb.setRating(Float.parseFloat(popLaundryDTO.getRating()));
-        binding.bookingBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Log.e("TESTONG", popLaundryDTO.toString());
-                Intent in = new Intent(requireContext(), Schedule_Activity.class);
-                in.putExtra(Consts.SHOPDTO, popLaundryDTO);
-                startActivity(in);
-            }
-        });
+
         binding.mvAddress.getMapAsync(new OnMapReadyCallback() {
             @Override
             public void onMapReady(GoogleMap mMap) {
@@ -205,7 +196,7 @@ public class AboutFragment extends Fragment {
     @Override
     public void onAttach(@NonNull Context context) {
         super.onAttach(context);
-        serviceAcitivity = (ShopAcitivity) context;
+
     }
 
 

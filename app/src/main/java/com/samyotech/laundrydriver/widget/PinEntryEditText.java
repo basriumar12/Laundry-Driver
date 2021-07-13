@@ -29,7 +29,7 @@ import androidx.core.content.ContextCompat;
 import androidx.core.text.TextUtilsCompat;
 import androidx.core.view.ViewCompat;
 
-import com.samyotech.laundry.R;
+import com.samyotech.laundrydriver.R;
 
 import java.util.Locale;
 

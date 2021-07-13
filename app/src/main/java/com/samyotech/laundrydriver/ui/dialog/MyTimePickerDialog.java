@@ -9,7 +9,8 @@ import android.widget.TimePicker;
 
 import androidx.fragment.app.DialogFragment;
 
-import com.samyotech.laundry.R;
+
+import com.samyotech.laundrydriver.R;
 
 import java.util.Calendar;
 
