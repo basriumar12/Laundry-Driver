@@ -4,6 +4,9 @@
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0ae9a2ebfc4672d2353aa35fb52a53f1/jetified-SuperNova-Emoji-1.1/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0ae9a2ebfc4672d2353aa35fb52a53f1/jetified-SuperNova-Emoji-1.1/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0ae9a2ebfc4672d2353aa35fb52a53f1/jetified-SuperNova-Emoji-1.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/25986175147b9ce3b17dd94be2127859/jetified-SuperNova-Emoji-1.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/25986175147b9ce3b17dd94be2127859/jetified-SuperNova-Emoji-1.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/25986175147b9ce3b17dd94be2127859/jetified-SuperNova-Emoji-1.1/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
